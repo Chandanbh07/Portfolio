@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Check } from "lucide-react";
 
 const VIDEO_SRC =
-  "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260601_110537_3a579fa0-7bbc-4d94-9d25-0e816c7840f5.mp4";
+  "https://res.cloudinary.com/oootvsib/video/upload/v1784313241/WhatsApp_Video_2026-07-18_at_12.03.26_AM_mrot6b.mp4";
 
 /* ------------------------------------------------------------------ */
 /* useTypewriter                                                       */
@@ -113,7 +113,8 @@ function ScrubbingVideo() {
         muted
         playsInline
         preload="auto"
-        className="w-full h-full object-cover object-right lg:object-right-bottom"
+        // className="w-full h-full object-cover object-right lg:object-right-bottom"
+        className="w-full h-full object-cover object-[85%_15%]"
       >
         <source src={VIDEO_SRC} type="video/mp4" />
       </video>
